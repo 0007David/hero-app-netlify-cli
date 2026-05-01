@@ -1,12 +1,12 @@
 # example netlify.toml
 [build]
-  base = "browser"
+  base = ""
   command = "npm install && npm run build"
   functions = "netlify/functions"
   publish = "dist/hero-app/browser"
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/browser/index.html"
   status = 200
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
