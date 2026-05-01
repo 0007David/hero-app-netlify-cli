@@ -6,7 +6,7 @@
   publish = "dist/hero-app/browser"
 [[redirects]]
   from = "/*"
-  to = "browser/index.html"
+  to = "/index.html"
   status = 200
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
